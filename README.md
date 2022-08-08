@@ -5,5 +5,8 @@ Hi everyone, I am @TestingLife - Zhangjinkun and I have been working on software
 
 This project is a lightweight data simulation test framework proposed for bus communication-based software. It supports the flexible construction of a semi-physical simulation test environment, simple operation, and easy implementation of automated testing. The purpose of building this project is, on the one hand, to share the author's experience in equipment software testing, on the other hand, to work with collaborators from all over the world for the progress of the software testing industry.
 
+This project is planned to be implemented in three phases.
+In the first phase, design a lightweight bus testing framework, define a unified plug-in interface, and implement a GUI application that inherits from QMainWindow. Designing the plug-in configuration interface makes it possible for users to configure the plug-in type and the number of plug-in forms as needed, thus initializing the framework with minimal resources and simplifying operations.
+
 
 Thanks! :sparkling_heart:
