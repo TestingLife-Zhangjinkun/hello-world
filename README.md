@@ -8,5 +8,7 @@ This project is a lightweight data simulation test framework proposed for bus co
 This project is planned to be implemented in three phases.
 In the first phase, design a lightweight bus testing framework, define a unified plug-in interface, and implement a GUI application that inherits from QMainWindow. Designing the plug-in configuration interface makes it possible for users to configure the plug-in type and the number of plug-in forms as needed, thus initializing the framework with minimal resources and simplifying operations.
 
+In the second stage, design single bus interface test plug-ins based on Qt Plugins to form a plug-in set to simulate the peripheral data of SUT. The idea of keyword-driven testing is introduced to design unified data configuration rules, making it possible for testers to make simple configurations to implement automated testing, thus reducing the technical threshold of automated testing. The authors plan to implement the following single bus interfaces: serial, UDP, TCP, CAN, 1553B, and hope that other collaborators will enrich other bus interface test plug-ins.
+
 
 Thanks! :sparkling_heart:
